@@ -12,6 +12,4 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
-git clone https://github.com/BoringCat/minieap-openwrt.git package/minieap
-git clone https://github.com/BoringCat/luci-app-minieap.git package/luci-app-minieap
 git clone https://github.com/vernesong/OpenClash.git && cp -r OpenClash/luci-app-openclash package/luci-app-openclash
